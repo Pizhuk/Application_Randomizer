@@ -78,6 +78,7 @@ public class RandomizerRun {
 			System.out.println("Enter generate, exit or help");
 			String command = scanner.next();
 			if (command.equalsIgnoreCase(RESPONSE_HELP)) {
+				i = i - 1;
 				System.out.println("Enter exit, if you want to exit application\nEnter generate, if you want to generate random number\n");
 			}
 			else if(command.equalsIgnoreCase(RESPONSE_EXIT)) {
